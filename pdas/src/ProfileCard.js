@@ -2,7 +2,7 @@
 // Javascript feature - not exclusive to React
 // example: passing { title, handle } rather than passing entire props object
 
-function ProfileCard({ title, handle, image }){
+function ProfileCard({ title, handle, image, description }){
 
     return(
         <div className = "card" >
@@ -18,8 +18,9 @@ function ProfileCard({ title, handle, image }){
                     <p className = "title is-4">{title}</p>
                     <p className = "subtitle is-6">{handle}</p>
                 </div>
+                <div className="content">{description}</div>
             </div>
-            
+
         </div>
     )
 }
