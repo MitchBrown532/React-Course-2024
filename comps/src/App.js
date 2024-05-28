@@ -1,25 +1,37 @@
+import { GoBell, GoCloudOffline, GoArrowDown } from 'react-icons/go'
 import Button from "./Button"
+
 
 function App() {
     return (
         <div>
             <div>
-                <Button>Click me!</Button>
+                <Button rounded outline>
+                    <GoCloudOffline />
+                    Standard
+                </Button>
             </div>
             <div>
-                <Button>Buy now</Button>
+
+                <Button primary rounded outline>
+                    <GoBell />
+                    primary
+                </Button>
             </div>
             <div>
-                <Button>Blah blah</Button>
+                <Button secondary rounded>
+                    <GoArrowDown />
+                    Secondary
+                </Button>
             </div>
             <div>
-                <Button>sOk </Button>
+                <Button success outline>Success</Button>
             </div>
             <div>
-                <Button> got it</Button>
+                <Button danger>danger </Button>
             </div>
             <div>
-                <Button> one more </Button>
+                <Button warning> warning </Button>
             </div>
         </div>
     )
