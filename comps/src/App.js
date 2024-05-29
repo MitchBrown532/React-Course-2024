@@ -1,38 +1,28 @@
-import { GoBell, GoCloudOffline, GoArrowDown } from 'react-icons/go'
-import Button from "./Button"
+import Accordion from './components/Accordion'
 
 
 function App() {
+    const items = [
+        {
+            id: 1,
+            label:'Can I use react',
+            content: 'Yes you can'
+        },
+        {
+            id: 2,
+            label:'Can I use  JS',
+            content: 'Sure you can'
+        },
+        {
+            id: 3,
+            label:'Can I use C++',
+            content: 'Please do not'
+        },
+    ]
+
     return (
         <div>
-            <div>
-                <Button rounded outline>
-                    <GoCloudOffline />
-                    Standard
-                </Button>
-            </div>
-            <div>
-
-                <Button primary rounded outline>
-                    <GoBell />
-                    primary
-                </Button>
-            </div>
-            <div>
-                <Button secondary rounded>
-                    <GoArrowDown />
-                    Secondary
-                </Button>
-            </div>
-            <div>
-                <Button success outline>Success</Button>
-            </div>
-            <div>
-                <Button danger>danger </Button>
-            </div>
-            <div>
-                <Button warning> warning </Button>
-            </div>
+            <Accordion items={items} />
         </div>
     )
 }
