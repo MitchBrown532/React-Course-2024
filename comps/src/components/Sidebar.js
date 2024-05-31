@@ -3,11 +3,11 @@ import Link from "./Link";
 function Sidebar() {
   const links = [
     { label: "Buttons", path: "/buttons" },
-    { label: "Counter", path: "/counter" },
     { label: "Dropdown", path: "/" },
     { label: "Accordion", path: "/accordion" },
     { label: "Modal", path: "/modal" },
     { label: "Table", path: "/table" },
+    { label: "Counter", path: "/counter" },
   ];
 
   const renderedLinks = links.map((link) => {
