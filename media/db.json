@@ -1,36 +1,28 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Allan Wintheiser",
+      "id": 1
     },
     {
-      "name": "Colin Frami",
+      "name": "Marilyn Hilll",
       "id": 2
     },
     {
-      "name": "Stuart Padberg",
+      "name": "Willard O'Connell",
       "id": 3
     },
     {
-      "name": "Nicholas Cartwright",
+      "name": "Jim Gottlieb",
       "id": 4
     },
     {
-      "name": "Cheryl Lynch",
+      "name": "Alberto Altenwerth",
       "id": 5
     },
     {
-      "name": "Ignacio Ryan",
+      "name": "Jeanne Lebsack",
       "id": 6
-    },
-    {
-      "name": "Dustin Adams",
-      "id": 7
-    },
-    {
-      "name": "Darren Friesen V",
-      "id": 8
     }
   ],
   "albums": [],
